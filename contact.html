@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Car Rental Website | Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link to scorll reveal  -->
+    <script src="https://unpkg.com/scrollereveal"></script>
+    <!-- link cdnjs library for font awsome to use the fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start of navbar -->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Free<b class="accent">Rides</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonilas">REVEIWS</a>
+        </div>
+        <button class="btn-2" onclick="window.location.href='Contact.html'">
+            Get Started</button>
+        <div class="btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- contact section -->
+     <section class="contact">
+        <h1>Get in Touch for your Dream Rides!</h1>
+        <p>
+            Have questions or need assistance? Our team is here to help you
+            find the best car for your adventure
+        </p>
+      <form action="https//api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="e0c42e71-b3af-426f-b490-e6a29b2becc8">
+        <div class="car-select">
+            <div class="car-select-item">
+                <label for="location">Location:</label>
+                <select name="location" id="location" class="car-select-input">
+                    <option value="California">California</option>
+                    <option value="Los Santos">Los Santos</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York">New York</option>
+                    <option value="New Jersey">New Jersey</option>
+                </select>
+            </div>
+
+            <div class="car-select-item">
+                <label for="car-type">Car to Rent</label>
+                <select name="car-type" id="car-type" class="car-select-input">
+                    <option value="MERCEDES-AMG GT R">MERCEDES-AMG GT R</option>
+                    <option value="Lamborghini Vaneno">Lamborghini Vaneno</option>
+                    <option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+                    <option value="Toyota 86-Coupe">Toyota 86-Coupe</option>
+                </select>
+            </div>
+            
+            <div class="car-select-item">
+                <label for="date">Date:</label>
+                <input type="date" class="car-select-input" name="date" id="date">
+            </div>
+        </div>
+
+     <div class="contact-form">
+        <input type="text" name="text" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="phone" name="phone" placeholder="Phone" required>
+        <button type="submit" class="btn-2" >Submit</button>
+     </div>
+
+      </form>
+     </section>
+    <!-- contact section -->
+
+    <!-- footer section -->
+         <footer class="contact-footer">
+            <div class="callout">
+                <h2>Let's drive with FreeRides Today!</h2>
+                <p class="callout-description">
+                    Need assistance or ready to reserve your wheels? Contact us now for
+                    prompt service and efforstless booking 
+                </p>
+                <div class="callout-buttons">
+                    <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                        <p>Check Our Cars</p>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                    <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='collection.html'">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="/" class="footer-brand">Free<b class="accent">Rides</b></a>
+                <div class="socials">
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+         </footer>
+    <!-- footer section end-->
+    <script src="main.js"></script>
+</body>
+
+</html>

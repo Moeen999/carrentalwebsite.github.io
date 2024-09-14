@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Car Rental Website | Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link to scorll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- link cdnjs library for font awsome to use the fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start of navbar -->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Free<b class="accent">Rides</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonilas">REVEIWS</a>
+        </div>
+        <button class="btn-2" onclick="window.location.href='Contact.html'">
+            Get Started</button>
+        <div class="btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- hero section -->
+
+    <div class="hero-page">
+        <div class="hero-headlines">
+            <h1>Efficient way to <b class="accent">Rent</b> A car with Free<b class="accent">Rides</b></h1>
+            <p>we offer a wide extend of rental cars to suit your needs.Wether
+                you're arranging a weekend travel or a business trip
+            </p>
+            <button class="btn-2 btn-hero" onclick="window.location.href='contact.html' ">Get Started</button>
+            <div class="download-buttons">
+                <img src="app_store_img.png" alt="img" />
+                <img src="google_play_img.png" alt="img" />
+            </div>
+        </div>
+        <img src="hero_img.png" class="hero-page-img" alt="img" />
+    </div>
+    <!-- hero section end-->
+
+    <!-- about section  -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1>Your Premier Choice for Effortless Car Rentals</h1>
+            <p class="about-subline">Experience the ultimate convenience with FreeRides, where renting a
+                car is as easy as a few clicks.
+            </p>
+            <div class="about-info">
+                <div class="about-info-item">
+                    <hr class="about-hr">
+                    <img src="about-info-item-1.png" alt="img" />
+                    <h5>Efficiency</h5>
+                    <p>
+                        FreeRides stand out for its streamlined rental process, ensuring
+                        customers can rapidly book their desired vehicle
+                    </p>
+                </div>
+                <div class="about-info-item">
+                    <hr class="about-hr">
+                    <img src="about-info-item-2.png" alt="img" />
+                    <h5>Diverse Fleet</h5>
+                    <p>
+                        FreeRides boasts a diversed fleet of maintained vehicles,
+                        catering to varied needs and preferences of customers.
+                    </p>
+                </div>
+                <div class="about-info-item">
+                    <hr class="about-hr">
+                    <img src="about-info-item-3.png" alt="img" />
+                    <h5>Exceptional Service</h5>
+                    <p>
+                        Beyond just providing vehicles, FreeRides is commited to
+                        delivering exceptional customer service at every touchpoint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+
+    <!-- collection section -->
+    <section class="collection" id="collection">
+        <h1>Our Car Collection</h1>
+        <div class="collection-container">
+            <!-- car#1 -->
+            <div class="collection-car-item">
+                <img src="car-1.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$70.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>California</h6>
+                        </div>
+                    </div>
+                    <h2>MERCEDES-AMG GT R</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- car#2 -->
+            <div class="collection-car-item">
+                <img src="car-2.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$80.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>New York</h6>
+                        </div>
+                    </div>
+                    <h2>BMW 428i-F32</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- car#3 -->
+            <div class="collection-car-item">
+                <img src="car-3.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$120.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Los Angeles</h6>
+                        </div>
+                    </div>
+                    <h2>Toyota 86-Coupe</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <!-- car#4 -->
+            <div class="collection-car-item">
+                <img src="car-4.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$50.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Los Vegas</h6>
+                        </div>
+                    </div>
+                    <h2>2018 Lexus LS</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+            <!-- car#5 -->
+            <div class="collection-car-item">
+                <img src="car-5.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$170.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Berlin</h6>
+                        </div>
+                    </div>
+                    <h2>Rolls Royce Dawn</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- car#6 -->
+            <div class="collection-car-item">
+                <img src="car-6.png" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$270.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Canada</h6>
+                        </div>
+                    </div>
+                    <h2>Lamborghini Vaneno</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button class="btn-car btn-herocar">
+            <p>See All Cars</p>
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+    </section>
+    <!-- collection section End-->
+
+    <!-- reveiew section -->
+    <section class="review" id="review">
+        <h1>Hear what our clients say</h1>
+        <div class="review-container">
+            <!-- review#1 -->
+            <div class="review-item">
+                <p>
+                    Renting with Free<b class="accent">Rides</b> was an absolute breeze!
+                    From booking online to picking up the car everything was smooth and
+                    efficient
+                </p>
+                <div class="review-people">
+                    <img src="testimonials-1.png" alt="img">
+                    <h5>Alisha Qammar</h5>
+                </div>
+            </div>
+
+
+            <!-- review#2 -->
+            <div class="review-item">
+                <p>
+                    I can't recommend Free<b class="accent">Rides</b> enough.Their
+                    diverse fleet allowed me to choose the perfect car for my weekend
+                    Gateway
+                </p>
+                <div class="review-people">
+                    <img src="testimonials-2.png" alt="img">
+                    <h5>Rameez</h5>
+                </div>
+            </div>
+
+
+            <!-- review#3 -->
+            <div class="review-item">
+                <p>
+                    Free<b class="accent">Rides</b> exceeded all my expectations! their
+                    flexibility with drop-off and pickup experience made my travel
+                    stress-free.
+                </p>
+                <div class="review-people">
+                    <img src="testimonials-3.png" alt="img">
+                    <h5>Hassan</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- reveiew section end -->
+
+    <!-- footer section -->
+         <footer class="index-footer">
+            <div class="callout">
+                <h2>Let's drive with FreeRides Today!</h2>
+                <p class="callout-description">
+                    Need assistance or ready to reserve your wheels? Contact us now for
+                    prompt service and efforstless booking 
+                </p>
+                <div class="callout-buttons">
+                    <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                        <p>Check Our Cars</p>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                    <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='collection.html'">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="/" class="footer-brand">Free<b class="accent">Rides</b></a>
+                <div class="socials">
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="/" class="social-items">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+         </footer>
+    <!-- footer section end-->
+    <script src="main.js"></script>
+</body>
+
+</html>
